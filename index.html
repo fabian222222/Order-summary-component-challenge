@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Frontend Mentor | Order summary card</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <section class="order_summary">
+
+        <picture class="order_summary_background">
+
+            <source srcset="/images/pattern-background-mobile.svg" media="(max-width: 375px)">
+            <img src="/images/pattern-background-desktop.svg" alt="background image of order summary">
+
+        </picture>
+
+        <div class="order_summary_container">
+            <div class="order_summary_container_elements">
+
+                <div class="order_summary_container_elements_illustration">
+                    <img src="/images/illustration-hero.svg" alt="order card illustration (woman dancing)">
+                </div>
+
+                <div class="order_summary_container_elements_card_title">
+                    <p class="order_summary_container_elements_card_title_text">
+                        Order Summary
+                    </p>
+                </div>
+
+                <div class="order_summary_container_elements_card_description">
+                    <p class="order_summary_container_elements_card_description_text">
+                        You can listen to millions of songs, audiobooks, and podcasrs on any device anywhere you like!
+                    </p>
+                </div>
+
+                <div class="order_summary_container_elements_card_plan">
+                    <div class="order_summary_container_elements_card_plan_card">
+
+                        <div class="order_summary_container_elements_card_plan_card_offer">
+
+                            <div class="order_summary_container_elements_card_plan_card_image">
+                                <img src="/images/icon-music.svg" alt="music icon of plan card">
+                            </div>
+    
+                            <div class="order_summary_container_elements_card_plan_card_price">
+                                <p class="order_summary_container_elements_card_plan_card_price_name">
+                                    Annual Plan
+                                </p>
+                                <p class="order_summary_container_elements_card_plan_card_price_amount">
+                                    $59.99/year
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="order_summary_container_elements_card_plan_card_change">
+                            <a href="#" class="order_summary_container_elements_card_plan_card_change_link">
+                                Change
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="order_summary_container_elements_payement">
+                    <div class="order_summary_container_elements_payement_container">
+                        <a href="#" class="order_summary_container_elements_payement_text">
+                            Proceed to Payment
+                        </a>
+                    </div>
+                </div>
+
+                <div class="order_summary_container_elements_cancel">
+                    <div class="order_summary_container_elements_cancel_container">
+                        <p class="order_summary_container_elements_cancel_container_text">
+                            Cancel Order
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
