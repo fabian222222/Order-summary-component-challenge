@@ -129,7 +129,7 @@ body {
 }
 
 .order_summary_container_elements_cancel {
-    margin-top: 20px;
+    margin: 20px 0;
     color:  hsl(224, 23%, 55%);
     cursor: pointer;
 }
